@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+      src="https://kit.fontawesome.com/cf52a0264e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="/images/clogo.png" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="flex marginTop mediumWidth">
+      <img src="/images/clogo.png" alt="clogo" height="50px" class="logo" />
+      <nav>
+        <a class="navitems navHover" href="#about">about</a>
+        <a class="navitems navHover" href="#projects">projects</a>
+        <a class="navitems navHover" href="#contact">contact</a>
+        <a class="navitems navHover" href="https://iamdeveloper.hashnode.dev" target="_blank">blog <i class="fas fa-external-link-alt"></i></a>
+        <button class="btn resume transparent"> resume</button>
+      </nav>
+    </header>
+
+    <section class="intro smallWidth marginTop">
+      <p class="regularText green"></p>
+      <img
+        src="/images/code icon.svg"
+        alt=""
+        height="500px"
+        class="code-icon bounce-1"
+      />
+      <section class="line">
+        <a href="https://github.com/cchidozie"
+          target="_blank"><i class="fab fa-github"></i></i
+        ></a>
+        <a href="https://twitter.com/Xidoozie?s=09"
+          target="_blank"><i class="fab fa-twitter"></i></i
+        ></a>
+        <a href="https://www.linkedin.com/in/chidozie-godwin-chukwugbo-35a2341a1/"
+          target="_blank"><i class="fab fa-linkedin-in"></i></i
+        ></a>
+        <a href="https://codepen.io/BarcodeDozie"
+          target="_blank"><i class="fab fa-codepen"></i></i
+        ></a>
+        <div class="vl"></div>
+      </section>
+
+      <section class="line email-float">
+        <p>chukwuboc@gmail.com</p>
+        <div class="vl"></div>
+      </section>
+      <h1 class="bigFont lgrey">Chidozie Chukwugbo</h1>
+      <h1 class="bigFont dgrey">Web Developer/ UX Designer</h1>
+      <p class="regularText boring">
+        I am a Web Developer & UX Designer based in Lagos Nigeria. I enjoy
+        designing and building all types of web experiences from small business
+        websites to rich, interactive web applications. I am skilled in HTML5,
+        CSS3, Javascript Figma, Photoshop, Canva & React and I am working on
+        becoming dangerous with Node, Redux, MongoDB and Express. I also
+        freelance as a UX Researcher/ Writer and Social Development Consultant.
+        <br />
+        If you are a business or individual looking to build a web experience or
+        an employer looking to hire, you can get in touch with me.
+      </p>
+      <section class="btn-container marginTop">
+        <button class="btn solid">I need a website</button>
+        <button class="btn transparent">I'm looking to hire</button>
+      </section>
+      <div id="about"></div>
+    </section>
+
+    <section class="about smallWidth relative">
+      <h3 class="subHeader newSubHeader rightAlign">
+        &lt <span class="subHeaderText">About Me/</span> &gt
+      </h3>
+      <article class="flex">
+        <img src="/images/design code.gif" alt="" height="170px" />
+        <p class="noMargin gap">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nostrum
+          inventore, sapiente cupiditate sed quasi architecto, impedit velit
+          veniam voluptate numquam ab deleniti? Architecto sit nobis harum
+          quibusdam quas soluta fugit iusto sint. Corporis saepe enim vero
+          quisquam ratione unde quis sed culpa in consequatur. Voluptatem,
+          possimus? Maxime, repellendus id.
+        </p>
+        <img
+          src="/images/brackets-curly-svgrepo-com.svg"
+          alt=""
+          class="code-icon svg"
+          height="500px"
+        />
+      </article>
+      <div id="projects"></div>
+    </section>
+
+    <section class="projects smallWidth">
+      <h3 class="subHeader leftAlign newSubHeader">
+        &lt <span class="subHeaderText">Some Things I've Built/</span> &gt
+      </h3>
+      <article class="flex intro">
+        <a href="https://watchlists.netlify.app/?" target="_blank"
+          ><img
+            src="/images/Watchlist.png"
+            alt="Watchlist screenshot"
+            height="300px"
+            class="projectImage"
+          />
+        </a>
+
+        <p class="noMargin gap desc absolute watchlist">
+          WatchList is a movie tracking app that works like a to-do list. The
+          site allows you keep a list of movies and TV shows you're interested
+          in and tick them off your list once you have seen them.
+          <br />
+          <span class="tools"> HTML5 | CSS | Javascript </span>
+        </p>
+      </article>
+      <div id="contact"></div>
+    </section>
+
+    <section class="formSection smallWidth">
+       <h1 class="subHeader">
+        &lt <span class="subHeaderText">Let's Build Something/</span> &gt
+      </h1>
+      <p>Get in Touch</p>
+
+      <form action="https://formsubmit.co/84375596-5210-4ddc-972a-47eec7a21f35" method="POST" class="formContainer">
+        <input
+          type="email"
+          name="Email"
+          placeholder="Email*"
+          required
+          class="form email"
+        /><br />
+        <input
+          type="text"
+          name="Name"
+          placeholder="Name*"
+          required
+          class="form name"
+        />
+        <br />
+        <input
+          type="phone"
+          name="Phone Number"
+          placeholder="Phone Number"
+          class="form phone"
+        /><br />
+        <input
+          type="text"
+          name="Message"
+          placeholder="Message*"
+          required
+          class="form message"
+        />
+        <br />
+        <button type="submit" class="transparent submit">SEND</button>
+      </form>
+    </section>
+
+    <footer class="flex">
+      <p>Designed and built by Chidozie Chukwugbo | 2021</p>
+      <br>
+      <div class="flex">
+        <a href="https://github.com/cchidozie"
+        target="_blank"><i class="fab fa-github"></i></i
+        ></a>
+        <a href="https://twitter.com/Xidoozie?s=09"
+        target="_blank"><i class="fab fa-twitter"></i></i
+        ></a>
+        <a href="https://www.linkedin.com/in/chidozie-godwin-chukwugbo-35a2341a1/"
+        target="_blank"><i class="fab fa-linkedin-in"></i></i
+        ></a>
+        <a href="https://codepen.io/BarcodeDozie"
+        target="_blank"><i class="fab fa-codepen"></i></i
+        ></a>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
