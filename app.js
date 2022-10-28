@@ -4,14 +4,19 @@ const projects = document.querySelector('.projects')
 
 let projectData = [
   {
-    imgUrl: 'https://i.imgur.com/uSMePma.png',
-    projectDescription: `4mbmovies is a pitate site to download hdporn`,
-    tools: 'HTML5 | CSS | Javascript',
+    imgUrl: 'https://i.postimg.cc/7Yn85TLC/Watchlist-1.png',
+    projectDescription: `WatchList is a movie tracking app that works like a to-do list. The
+           site allows you keep a list of movies and TV shows you're interested
+           in and tick them off your list once you have seen them.`,
+    tools: 'HTML5 | CSS | Javascript | EJS | MongoDB | Express',
   },
+
   {
-    imgUrl: 'https://i.imgur.com/uSMePma.png',
-    projectDescription: `5mbmovies is a pitate site to download hdporn`,
-    tools: 'HTML5 | CSS | Javascript',
+    imgUrl: 'https://i.postimg.cc/7Yn85TLC/Watchlist-1.png',
+    projectDescription: `WatchList is a movie tracking app that works like a to-do list. The
+           site allows you keep a list of movies and TV shows you're interested
+           in and tick them off your list once you have seen them.`,
+    tools: 'HTML5 | CSS | Javascript | EJS | MongoDB | Express',
   },
 ]
 
@@ -35,7 +40,7 @@ emailCopy.addEventListener('click', function (event) {
 console.log(projectData)
 
 projectData.map((project) => {
-  projects.innerHTML = ` <article class="flex intro">
+  projects.innerHTML = ` <li class="flex intro">
         <a href="https://watchlists.netlify.app/?" target="_blank"
           ><img
             src=${project.imgUrl}
@@ -49,7 +54,7 @@ projectData.map((project) => {
           <br />
           <span class="tools"> ${project.tools} </span>
         </p>
-      </article>`
+      </li>`
 })
 // projects.innerHTML = ` <article class="flex intro">
 //         <a href="https://watchlists.netlify.app/?" target="_blank"
