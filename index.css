@@ -247,8 +247,8 @@ hr {
 }
 
 .projectImage {
-  filter: sepia(94%) hue-rotate(108deg) brightness(90%) opacity(0.3);
-  -webkit-filter: sepia(94%) hue-rotate(108deg) brightness(90%) opacity(0.3);
+  filter: sepia(0%)  brightness(60%) opacity(1);
+  -webkit-filter: sepia(0%)  brightness(60%) opacity(1);
   cursor: pointer;
   box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.75);
   border-radius: 7px;
@@ -278,7 +278,10 @@ hr {
   -o-transform: scale(1.02);
 }
 
-
+.projectTitle{
+  color: var(--lightblue);
+  font-weight: bold;
+}
 
 .form {
   font-family: inherit;
