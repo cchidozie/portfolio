@@ -55,17 +55,15 @@
       </section>
 
       <section class="line email-float">
-        <p>chukwuboc@gmail.com</p>
+        <p class="emailCopy">chukwuboc@gmail.com</p>
         <div class="vl"></div>
       </section>
       <h1 class="bigFont lgrey">Chidozie Chukwugbo</h1>
-      <h1 class="bigFont dgrey">Web Developer/ UX Designer</h1>
+      <h1 class="bigFont dgrey">Software Engineer/ UX Designer</h1>
       <p class="regularText boring">
         I am a Web Developer & UX Designer based in Lagos Nigeria. I enjoy
         designing and building all types of web experiences from small business
-        websites to rich, interactive web applications. I am skilled in HTML5,
-        CSS3, Javascript Figma, Photoshop, Canva & React and I am working on
-        becoming dangerous with Node, Redux, MongoDB and Express. I also
+        websites to rich, interactive, scalable, fullstack web applications.  I also
         freelance as a UX Researcher/ Writer and Social Development Consultant.
         <br />
         If you are a business or individual looking to build a web experience or
@@ -102,11 +100,12 @@
       <div id="projects"></div>
     </section>
 
-    <section class="projects smallWidth">
+    <section class="smallWidth">
       <h3 class="subHeader leftAlign newSubHeader">
         &lt <span class="subHeaderText">Some Things I've Built/</span> &gt
       </h3>
-      <article class="flex intro">
+      <div class="projects">
+        <!-- <article class="flex intro">
         <a href="https://watchlists.netlify.app/?" target="_blank"
           ><img
             src="/images/Watchlist.png"
@@ -123,38 +122,43 @@
           <br />
           <span class="tools"> HTML5 | CSS | Javascript </span>
         </p>
-      </article>
+      </article> -->
+
+      
+
+     
+      
+
+      
+
+      </div>
+      
       <div id="contact"></div>
     </section>
 
-    <section class="formSection smallWidth">
-       <h1 class="subHeader">
-        &lt <span class="subHeaderText">Let's Build Something/</span> &gt
+    <section class="formSection">
+       <h1 class="subHeader leftAlign ">
+        &lt <span class="subHeaderText ">Let's Build Something/</span> &gt
       </h1>
       <p>Get in Touch</p>
 
-      <form action="https://formsubmit.co/84375596-5210-4ddc-972a-47eec7a21f35" method="POST" class="formContainer">
-        <input
-          type="email"
-          name="Email"
-          placeholder="Email*"
-          required
-          class="form email"
-        /><br />
-        <input
-          type="text"
-          name="Name"
-          placeholder="Name*"
-          required
-          class="form name"
-        />
-        <br />
-        <input
-          type="phone"
-          name="Phone Number"
-          placeholder="Phone Number"
-          class="form phone"
-        /><br />
+      <form action="https://formspree.io/f/xkneqkzr" method="POST" class="formContainer" >
+        <div class="nameEmail flex">
+          <input
+            type="text"
+            name="Name"
+            placeholder="Name*"
+            required
+            class="form name"
+          />
+          <input
+            type="email"
+            name="Email"
+            placeholder="Email*"
+            required
+            class="form email"
+          />
+        </div>
         <input
           type="text"
           name="Message"
@@ -163,11 +167,12 @@
           class="form message"
         />
         <br />
+        <br>
         <button type="submit" class="transparent submit">SEND</button>
       </form>
     </section>
 
-    <footer class="flex">
+    <footer class="flex footerContainer">
       <p>Designed and built by Chidozie Chukwugbo | 2021</p>
       <br>
       <div class="flex">
@@ -186,6 +191,8 @@
       </div>
     </footer>
 
+    
 
+<script src="./app.js"></script>
   </body>
 </html>

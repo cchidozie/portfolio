@@ -12,10 +12,12 @@
   --lightgrey: #ccd6f6;
   --darkgrey: #8690ae;
   --lightblue: #29abe2;
+  --innerform: #677da318;
+  --darkblue: #020c1b;
 }
 
 .smallWidth {
-  width: 65vw;
+  width: 70vw;
   margin: 0 auto;
 }
 
@@ -166,6 +168,7 @@ button:hover:after {
 
 .intro {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .code-icon {
@@ -188,10 +191,7 @@ hr {
 }
 
 .newSubHeader {
-  margin-top: 15em;
-  font-size: 1.5em;
-  font-family: 'Calibri', 'Trebuchet MS', sans-serif;
-  color: var(--lightblue);
+  margin-top: 12em;
 }
 
 .rightAlign {
@@ -205,9 +205,15 @@ hr {
   color: var(--green);
 }
 
+.subHeader {
+  font-size: 1.5em;
+  font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+  color: var(--lightblue);
+}
+
 .svg {
   position: absolute;
-  top: 120%;
+  top: 110%;
   left: 5%;
 }
 
@@ -272,17 +278,18 @@ hr {
   -o-transform: scale(1.02);
 }
 
+
+
 .form {
   font-family: inherit;
   font-size: 0.9em;
   color: var(--lightgrey);
   outline: none;
   padding: 1rem;
-  background: #6077a018;
+  background: var(--innerform);
   border: none;
   border-radius: 2px;
   width: 40vw;
-  text-transform: uppercase;
   margin: 5px 0px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -291,9 +298,18 @@ hr {
 }
 
 .formSection {
-  width: 40vw;
-  margin: auto;
-  margin-top: 15em;
+  margin-top: 5em;
+  background-color: #020c1b;
+  padding: 5rem 10rem;
+}
+
+.nameEmail {
+  gap: 10px;
+  width: 50%;
+}
+
+.message {
+  width: 50%;
 }
 
 .vl {
@@ -329,6 +345,16 @@ hr {
   -moz-transform: rotate(-270deg);
   -ms-transform: rotate(-270deg);
   -o-transform: rotate(-270deg);
+  cursor: pointer;
+}
+
+.email-float :hover {
+  color: var(--green);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 
 .fab {
@@ -353,15 +379,14 @@ hr {
 }
 
 footer {
-  margin-top: 15em;
   flex-direction: column;
   color: var(--darkgrey);
   font-size: 0.8em;
-  margin-bottom: 2em;
+  background-color: var(--darkblue);
 }
 
 footer > div {
-  gap: 20px;
+  gap: 2px;
 }
 
 @keyframes bounce-1 {
