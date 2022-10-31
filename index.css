@@ -402,20 +402,20 @@ footer > div {
 
 /* Mobile  View */
 @media only screen and (max-width: 600px) {
-  .line {
-    display: none
-  }
-
-  nav{
+  nav,
+  .line,
+  .htmlBracket {
     display: none;
   }
 
-  body{
-    max-width: 550px;
+  body {
     padding: 2rem;
   }
 
-  .btn-container{
+  .btn-container {
     flex-direction: column;
+  }
+  .smallWidth{
+    width: 500px;
   }
 }
