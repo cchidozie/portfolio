@@ -402,9 +402,9 @@ footer > div {
 
 /* Mobile  View */
 @media only screen and (max-width: 600px) {
+  /* WIDTH */
   nav,
-  .line,
-  .htmlBracket {
+  .line {
     display: none;
   }
 
@@ -413,7 +413,8 @@ footer > div {
   }
 
   .btn-container,
-  .about > article, .intro {
+  .about > article,
+  .intro {
     flex-direction: column;
   }
   .smallWidth,
@@ -421,20 +422,41 @@ footer > div {
   form,
   .message,
   .regularText.boring,
-  .btn-container, .noMargin {
+  .btn-container,
+  .noMargin {
     width: 350px;
   }
 
   /* FONT SIZES */
-  .bigFont{
+  .bigFont {
     font-size: 3.9rem;
   }
 
-  .bigFont.dgrey{
+  .bigFont.dgrey {
     font-size: 2rem;
   }
-  .bigFont.lgrey{
-     line-height: 1;
-     margin-bottom: 0.9rem;
+  .bigFont.lgrey {
+    line-height: 1;
+    margin-bottom: 0.9rem;
+  }
+
+  /* POSITION */
+
+  .bounce-1 {
+    left: 30%;
+    top: 20%;
+  }
+
+  .gap {
+    margin-left: 0rem;
+  }
+
+  .designCode {
+    height: 120px;
+    margin-right: 6.5rem;
+  }
+
+  .desc{
+    position: relative;
   }
 }
