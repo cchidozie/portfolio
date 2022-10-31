@@ -409,7 +409,7 @@ footer > div {
   }
 
   body {
-    padding: 2rem;
+    padding: 1.3rem;
   }
 
   .btn-container,
@@ -422,6 +422,19 @@ footer > div {
   .message,
   .regularText.boring,
   .btn-container, .noMargin {
-    width: 500px;
+    width: 350px;
+  }
+
+  /* FONT SIZES */
+  .bigFont{
+    font-size: 3.9rem;
+  }
+
+  .bigFont.dgrey{
+    font-size: 2rem;
+  }
+  .bigFont.lgrey{
+     line-height: 1;
+     margin-bottom: 0.9rem;
   }
 }
