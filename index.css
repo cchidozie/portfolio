@@ -412,10 +412,16 @@ footer > div {
     padding: 2rem;
   }
 
-  .btn-container {
+  .btn-container,
+  .about > article, .intro {
     flex-direction: column;
   }
-  .smallWidth{
+  .smallWidth,
+  .watchlist,
+  form,
+  .message,
+  .regularText.boring,
+  .btn-container, .noMargin {
     width: 500px;
   }
 }
