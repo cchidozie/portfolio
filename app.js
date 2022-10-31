@@ -51,7 +51,7 @@ projectData.map((project) => {
             class="projectImage"
           />
         </a>
-        <p class="noMargin gap desc watchlist">
+        <p class="noMargin gap desc">
         <span class="projectTitle">${project.title}</span>
         <br />
           ${project.projectDescription}

@@ -239,9 +239,6 @@ hr {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
-}
-
-.watchlist {
   left: 40%;
   top: 30%;
   width: 65ch;
@@ -371,6 +368,11 @@ hr {
   -o-transition: ease 0.6s;
 }
 
+.mobileNavContainer,
+.mobileNav {
+  display: none;
+}
+
 .fab:hover {
   color: var(--green);
   transform: translate(0, -10px);
@@ -412,6 +414,10 @@ footer > div {
     display: none;
   }
 
+  .newSubHeader {
+    margin-top: 2em;
+  }
+
   .btn-container,
   .about > article,
   .intro {
@@ -426,6 +432,16 @@ footer > div {
   .btn-container,
   .noMargin {
     width: 350px;
+  }
+
+  .intro.marginTop {
+    margin-top: 0em;
+  }
+
+  .projectImage {
+    height: 170px;
+    filter: sepia(0%) brightness(100%) opacity(1);
+    -webkit-filter: sepia(0%) brightness(100%) opacity(1);
   }
 
   /* FONT SIZES */
@@ -448,6 +464,9 @@ footer > div {
     top: 20%;
   }
 
+  .curlyBracket {
+    left: 30%;
+  }
   .gap {
     margin-left: 0rem;
   }
@@ -460,14 +479,22 @@ footer > div {
   .logo {
     height: 40px;
   }
+
+  .desc {
+    background-color: #112240;
+    padding: 20px;
+    color: var(--lightgrey);
+    position: relative;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.75);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    left: 0%;
+    width: 364px;
+    margin-bottom: 1rem;
+  }
   /* STYLE */
   .fa-bars-staggered {
     color: var(--green);
-  }
-
-  #mobileIcon {
-    color: var(--green);
-    display: block;
   }
 
   .mobileSocials {
@@ -477,13 +504,17 @@ footer > div {
   .mobileNavContainer {
     background-color: var(--darkblue);
     margin-top: 2em;
+    display: block;
   }
 
   .mobileNav {
+    flex-direction: row;
+    display: flex;
     flex-direction: column;
   }
-  .mobileNav> a {
-    padding: 2px;
+
+  .fab {
+    padding: 0.5em 0.3em;
   }
 
   hr {
@@ -492,5 +523,9 @@ footer > div {
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .regularText.green {
+    margin-top: 2rem;
   }
 }
