@@ -18,6 +18,8 @@
     <link rel="icon" type="image/png" href="/images/clogo.png" />
     <title>Portfolio</title>
   </head>
+
+  
   <body>
     <header class="flex marginTop mediumWidth">
       <img src="/images/clogo.png" alt="clogo" height="50px" class="logo" />
@@ -36,7 +38,7 @@
         src="/images/code icon.svg"
         alt=""
         height="500px"
-        class="code-icon bounce-1"
+        class="icon-animation bounce-1"
       />
       <section class="line">
         <a href="https://github.com/cchidozie"
@@ -93,7 +95,7 @@
         <img
           src="/images/brackets-curly-svgrepo-com.svg"
           alt=""
-          class="code-icon svg"
+          class="icon-animation curlyBracket"
           height="500px"
         />
       </article>
@@ -101,7 +103,7 @@
     </section>
 
     <section class="smallWidth">
-      <h3 class="subHeader leftAlign newSubHeader">
+      <h3 class="subHeader newSubHeader">
         &lt <span class="subHeaderText">Some Things I've Built/</span> &gt
       </h3>
       <ul class="projects">
@@ -112,13 +114,14 @@
     </section>
 
     <section class="formSection">
-       <h1 class="subHeader leftAlign ">
+      <div class="smallWidth">
+ <h1 class="subHeader leftAlign ">
         &lt <span class="subHeaderText ">Let's Build Something/</span> &gt
       </h1>
-      <p>Get in Touch</p>
 
-      <form action="https://formspree.io/f/xkneqkzr" method="POST" class="formContainer" >
-        <div class="nameEmail flex">
+      <div class="flex smallWidth">
+<form action="https://formspree.io/f/xkneqkzr" method="POST" class="formContainer" >
+        <div class="nameEmail flex smallWidth">
           <input
             type="text"
             name="Name"
@@ -145,6 +148,10 @@
         <br>
         <button type="submit" class="transparent submit">SEND</button>
       </form>
+      </div>
+      </div>
+      
+      
     </section>
 
     <footer class="flex footerContainer">

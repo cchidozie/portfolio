@@ -47,11 +47,11 @@ projectData.map((project) => {
           ><img
             src=${project.imgUrl}
             alt="Watchlist screenshot"
-            height="300px"
+            height="270px"
             class="projectImage"
           />
         </a>
-        <p class="noMargin gap desc absolute watchlist">
+        <p class="noMargin gap desc watchlist">
         <span class="projectTitle">${project.title}</span>
         <br />
           ${project.projectDescription}

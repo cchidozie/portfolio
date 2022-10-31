@@ -17,7 +17,7 @@
 }
 
 .smallWidth {
-  width: 70vw;
+  width: 1100px;
   margin: 0 auto;
 }
 
@@ -168,13 +168,10 @@ button:hover:after {
 
 .intro {
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
-.code-icon {
-  position: absolute;
-  left: 70%;
-  top: -15%;
+.icon-animation {
   opacity: 0.1;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -184,6 +181,12 @@ button:hover:after {
 .bounce-1 {
   animation-name: bounce-1;
   animation-timing-function: ease-in-out;
+  position: absolute;
+  left: 70%;
+}
+
+.about {
+  position: relative;
 }
 
 hr {
@@ -192,13 +195,6 @@ hr {
 
 .newSubHeader {
   margin-top: 12em;
-}
-
-.rightAlign {
-  text-align: right;
-}
-.leftAlign {
-  text-align: left;
 }
 
 .subHeaderText {
@@ -211,10 +207,10 @@ hr {
   color: var(--lightblue);
 }
 
-.svg {
+.curlyBracket {
   position: absolute;
-  top: 110%;
-  left: 5%;
+  top: -10%;
+  left: -15%;
 }
 
 .gap {
@@ -230,7 +226,7 @@ hr {
 
 .desc {
   background-color: #112240;
-  padding: 20px;
+  padding: 30px;
   color: var(--lightgrey);
   position: absolute;
   box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.75);
@@ -243,12 +239,13 @@ hr {
 
 .watchlist {
   left: 40%;
-  width: 80ch;
+  top: 30%;
+  width: 65ch;
 }
 
 .projectImage {
-  filter: sepia(0%)  brightness(60%) opacity(1);
-  -webkit-filter: sepia(0%)  brightness(60%) opacity(1);
+  filter: sepia(0%) brightness(60%) opacity(1);
+  -webkit-filter: sepia(0%) brightness(60%) opacity(1);
   cursor: pointer;
   box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.75);
   border-radius: 7px;
@@ -278,7 +275,7 @@ hr {
   -o-transform: scale(1.02);
 }
 
-.projectTitle{
+.projectTitle {
   color: var(--lightblue);
   font-weight: bold;
 }
@@ -308,7 +305,6 @@ hr {
 
 .nameEmail {
   gap: 10px;
-  width: 50%;
 }
 
 .message {
@@ -401,5 +397,25 @@ footer > div {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+/* Mobile  View */
+@media only screen and (max-width: 600px) {
+  .line {
+    display: none
+  }
+
+  nav{
+    display: none;
+  }
+
+  body{
+    max-width: 550px;
+    padding: 2rem;
+  }
+
+  .btn-container{
+    flex-direction: column;
   }
 }
