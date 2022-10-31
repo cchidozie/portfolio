@@ -304,12 +304,16 @@ hr {
   padding: 5rem 10rem;
 }
 
-.nameEmail {
+/* .nameEmail {
   gap: 10px;
-}
+} */
 
 .message {
   width: 50%;
+}
+
+.formBtn{
+margin-top: 0.4em;
 }
 
 .vl {
@@ -425,9 +429,6 @@ footer > div {
   }
   .smallWidth,
   .mediumWidth,
-  .watchlist,
-  form,
-  .message,
   .regularText.boring,
   .btn-container,
   .noMargin {
@@ -442,6 +443,8 @@ footer > div {
     height: 170px;
     filter: sepia(0%) brightness(100%) opacity(1);
     -webkit-filter: sepia(0%) brightness(100%) opacity(1);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
 
   /* FONT SIZES */
@@ -491,7 +494,15 @@ footer > div {
     left: 0%;
     width: 364px;
     margin-bottom: 1rem;
+    margin-top: -1.2em;
   }
+
+  .formSection {
+    margin-top: 5em;
+    background-color: #020c1b;
+    padding: 0rem;
+  }
+
   /* STYLE */
   .fa-bars-staggered {
     color: var(--green);
@@ -527,5 +538,13 @@ footer > div {
 
   .regularText.green {
     margin-top: 2rem;
+  }
+
+  .nameEmail {
+    gap: 0px;
+    flex-direction: column;
+  }
+  .form {
+    width: 100%;
   }
 }
