@@ -418,10 +418,6 @@ footer > div {
     display: none;
   }
 
-  .newSubHeader {
-    margin-top: 20rem;
-  }
-
   .btn-container,
   .about > article,
   .intro {
@@ -469,6 +465,7 @@ footer > div {
   .bigFont.lgrey {
     line-height: 1;
     margin-bottom: 0.3rem;
+    margin-top: 2em;
   }
 
   .regularText.boring {
@@ -520,6 +517,10 @@ footer > div {
     height: 2.5rem;
   }
 
+  .formBtn {
+    margin-top: 0.1em;
+  }
+
   .message {
     height: 300%;
   }
@@ -565,6 +566,11 @@ footer > div {
     gap: 0px;
     flex-direction: column;
   }
+
+  .formContainer {
+    display: flex;
+  }
+
   .form {
     width: 100%;
   }
