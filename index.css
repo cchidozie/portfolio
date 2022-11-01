@@ -312,8 +312,8 @@ hr {
   width: 50%;
 }
 
-.formBtn{
-margin-top: 0.4em;
+.formBtn {
+  margin-top: 0.4em;
 }
 
 .vl {
@@ -419,7 +419,7 @@ footer > div {
   }
 
   .newSubHeader {
-    margin-top: 2em;
+    margin-top: 20rem;
   }
 
   .btn-container,
@@ -432,7 +432,18 @@ footer > div {
   .regularText.boring,
   .btn-container,
   .noMargin {
-    width: 350px;
+    width: 330px;
+  }
+
+  a {
+    font-size: 0.9em;
+  }
+  .noMargin {
+    font-size: 0.9em;
+  }
+
+  .subHeaderText {
+    font-size: 0.8em;
   }
 
   .intro.marginTop {
@@ -449,17 +460,20 @@ footer > div {
 
   /* FONT SIZES */
   .bigFont {
-    font-size: 3.9rem;
+    font-size: 2rem;
   }
 
   .bigFont.dgrey {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .bigFont.lgrey {
     line-height: 1;
-    margin-bottom: 0.9rem;
+    margin-bottom: 0.3rem;
   }
 
+  .regularText.boring {
+    font-size: 0.9rem;
+  }
   /* POSITION */
 
   .bounce-1 {
@@ -475,8 +489,7 @@ footer > div {
   }
 
   .designCode {
-    height: 120px;
-    margin-right: 6.5rem;
+    display: none;
   }
 
   .logo {
@@ -495,12 +508,20 @@ footer > div {
     width: 364px;
     margin-bottom: 1rem;
     margin-top: -1.2em;
+    font-size: 0.8rem;
   }
 
   .formSection {
     margin-top: 5em;
     background-color: #020c1b;
     padding: 0rem;
+  }
+  .form {
+    height: 2.5rem;
+  }
+
+  .message {
+    height: 300%;
   }
 
   /* STYLE */
