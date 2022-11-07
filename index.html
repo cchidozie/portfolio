@@ -22,7 +22,27 @@
 
   <body>
     <header class="flex marginTop mediumWidth">
-      <img src="/images/clogo.png" alt="clogo" height="50px" class="logo" />
+       <img src="/images/clogo.png" alt="clogo" height="50px" class="logo"  id="brand"/>
+      <nav>
+        <a class="navitems navHover" href="#about">about</a>
+        <a class="navitems navHover" href="#projects">projects</a>
+        <a class="navitems navHover" href="#contact">contact</a>
+        <a class="navitems navHover" href="https://iamdeveloper.hashnode.dev" target="_blank">blog <i class="fas fa-external-link-alt"></i></a>
+        <button class="btn resume transparent"> resume</button>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <a class="navitems navHover" href="#about">about</a>
+        <a class="navitems navHover" href="#projects">projects</a>
+        <a class="navitems navHover" href="#contact">contact</a>
+        <a class="navitems navHover" href="https://iamdeveloper.hashnode.dev" target="_blank">blog <i class="fas fa-external-link-alt"></i></a>
+        <button class="btn resume transparent"> resume</button>
+        </ul>
+      </div>
+      <!-- <img src="/images/clogo.png" alt="clogo" height="50px" class="logo" />
       <nav>
         <a class="navitems navHover" href="#about">about</a>
         <a class="navitems navHover" href="#projects">projects</a>
@@ -31,11 +51,14 @@
         <button class="btn resume transparent"> resume</button>
       </nav>
        <section class="mobileNav">
-        <i class="fa-solid fa-bars-staggered fa-2x"></i>
-      </section>
+        <i class="fa-solid fa-bars-staggered fa-2x" onclick="showNav()"></i>
+      </section> -->
     </header>
 
     <section class="mobileNavContainer flex">
+      <div class="moble">
+
+      </div>
 
       <div class="flex mobileNav">
          <a href="https://github.com/cchidozie"

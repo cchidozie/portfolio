@@ -1,6 +1,11 @@
 const emailCopy = document.querySelector('.emailCopy')
 const projects = document.querySelector('.projects')
+
 // let projectData = require('./projectData')
+
+function toggleMobileMenu(menu) {
+  menu.classList.toggle('open')
+}
 
 let projectData = [
   {
@@ -60,21 +65,4 @@ projectData.map((project) => {
         </p>
       </li>`
 })
-// projects.innerHTML = ` <article class="flex intro">
-//         <a href="https://watchlists.netlify.app/?" target="_blank"
-//           ><img
-//             src="/images/Watchlist.png"
-//             alt="Watchlist screenshot"
-//             height="300px"
-//             class="projectImage"
-//           />
-//         </a>
 
-//         <p class="noMargin gap desc absolute watchlist">
-//           WatchList is a movie tracking app that works like a to-do list. The
-//           site allows you keep a list of movies and TV shows you're interested
-//           in and tick them off your list once you have seen them.
-//           <br />
-//           <span class="tools"> HTML5 | CSS | Javascript </span>
-//         </p>
-//       </article>`
