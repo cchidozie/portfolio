@@ -516,6 +516,10 @@ footer > div {
     font-size: 0.8em;
   }
 
+  .newSubHeader {
+    margin-top: 8em;
+  }
+
   .intro.marginTop {
     margin-top: 0em;
   }
@@ -665,9 +669,20 @@ footer > div {
     display: block;
   }
 
-  ul.mobile-menu{
+  ul.mobile-menu {
     background-color: var(--darkblue);
     z-index: 100;
     margin-top: 1.5em;
+  }
+  .footerContainer {
+    padding: 2em;
+  }
+
+  .leftAlign {
+    padding-top: 1em;
+  }
+
+  .footerIcons {
+    margin: 0 20px;
   }
 }
