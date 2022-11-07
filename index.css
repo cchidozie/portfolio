@@ -22,7 +22,7 @@
 }
 
 .mediumWidth {
-  width: 95vw;
+  width: 100vw;
   margin: auto;
 }
 
@@ -659,6 +659,9 @@ footer > div {
 
   header {
     padding: 0 0px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
   }
 
   header nav {
